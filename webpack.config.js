@@ -22,6 +22,7 @@ module.exports = {
       { test: /\.js$/, use: 'babel-loader', exclude: /node-modules/ },
       { test: /\.vue$/, use: 'vue-loader' },
       { test: /\.(ttf|woff|woff2|eot|svg)$/, use: 'vue-loader' },
+      { test: /\.(png|jpg|jpeg|webp|svg)$/, use: 'url-loader' },
     ]
   }
 }
